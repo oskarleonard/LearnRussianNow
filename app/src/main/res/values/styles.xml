@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="TestButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/test_buttons</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="DoneBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/test_buttons_done</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+</resources>

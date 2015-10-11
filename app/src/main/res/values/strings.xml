@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LearnRussianNow</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_module1"> </string>
+    <string name="title_activity_module_lession">ModuleLessionActivity</string>
+
+    <!-- Lession Menu-->
+    <string name="zoomin">Module1</string>
+    <string name="zoomout">Module1</string>
+    <string name="title_activity_lession_test">LessionTest</string>
+    <string name="test">Test</string>
+
+
+</resources>

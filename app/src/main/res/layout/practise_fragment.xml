@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Practise"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:text="Glossary"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Title"
+                            android:id="@+id/textView3"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/textViewsdd2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:text="Earned Words: 0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="S" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="E>R" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="R>E" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="S" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <NumberPicker
+                android:id="@+id/numberPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/txtMemory"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:text="Memory"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Title"
+                            android:id="@+id/textView5" />
+
+                        <TextView
+                            android:id="@+id/txtMemoryKnownWords"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:text="Known words: 0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PLAY" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <NumberPicker
+                android:id="@+id/npMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/tsxtMemory"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="EXAM"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                             />
+
+                        <TextView
+                            android:id="@+id/txtMemoryKnownWodrds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text=" "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                             />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="2dp">
+
+                            <ImageButton
+                                android:scaleType="fitXY"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/imageButton"
+                                android:src="@drawable/ic_exam_abc"
+                                android:layout_weight="1" />
+
+                            <ImageButton
+                                android:scaleType="fitXY"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/imageButton3"
+                                android:src="@drawable/ic_exam_bus"
+                                android:layout_weight="1" />
+
+                            <ImageButton
+                                android:scaleType="fitXY"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/imageButton2"
+                                android:src="@drawable/ic_exam_graduate"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

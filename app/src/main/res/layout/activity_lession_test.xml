@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tvQuestion"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <Button
+            android:text="New Button and on for me"
+            android:id="@+id/btnText1"
+            android:layout_weight="1"
+            style="@style/TestButton"
+            android:layout_gravity="top" />
+
+        <Button
+            android:text="New Button"
+            android:id="@+id/btnText2"
+            android:layout_weight="1"
+            style="@style/TestButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <Button
+            android:text="New Button"
+            android:id="@+id/btnText3"
+            android:layout_weight="1"
+            style="@style/TestButton"/>
+
+        <Button
+            android:text="New Button"
+            android:id="@+id/btnText4"
+            android:layout_weight="1"
+            style="@style/TestButton"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <Button
+            android:text="New Button"
+            android:id="@+id/btnText5"
+            android:layout_weight="1"
+            style="@style/TestButton"/>
+
+        <Button
+            android:text="DONE"
+            android:textColor="@color/white"
+            android:id="@+id/btnText6"
+            android:layout_weight="1"
+            style="@style/DoneBtn"/>
+    </LinearLayout>
+
+</LinearLayout>
